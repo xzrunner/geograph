@@ -1,0 +1,8 @@
+gh/
+gh_test/
+projects/*
+
+!projects/gh.vcxproj
+!projects/gh.vcxproj.filters
+!projects/gh_test.vcxproj
+!projects/gh_test.vcxproj.filters

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dataset">
+      <UniqueIdentifier>{7a2a5d9c-656c-4b09-aaca-09d1f07635c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{45f34ca3-abbf-4628-bb9d-c3281bad8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\component">
+      <UniqueIdentifier>{6f6c22eb-ece4-4d0a-b7c1-9b707c08ed93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\curve">
+      <UniqueIdentifier>{3b2c2514-8865-49b4-b3a7-58225d521599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\curve\primitive">
+      <UniqueIdentifier>{0ef47da5-9143-4e2b-b891-e0173285cf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\curve\division">
+      <UniqueIdentifier>{f9d708d1-15ae-4aee-ad44-e62711166504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{13c365c1-87d7-4d94-999d-3452951a317c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\params">
+      <UniqueIdentifier>{9d3e825e-db23-4bda-bdb3-40a8a5dc84c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\params\geometry">
+      <UniqueIdentifier>{a8010fec-401f-40fe-8717-30a0eabc8ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\params\geometry\1d">
+      <UniqueIdentifier>{d5326bf6-36f3-4b57-89be-d60a8aecca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\param">
+      <UniqueIdentifier>{3fe35597-f4ba-4b40-bf66-d6131673d6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eval">
+      <UniqueIdentifier>{04d5a3c4-9b59-48b2-a81a-c127d4b71c71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\gh\Component.h">
+      <Filter>dataset\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\Line.h">
+      <Filter>components\curve\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.h">
+      <Filter>components\curve\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\typedef.h" />
+    <ClInclude Include="..\..\..\include\gh\CompHelper.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\param\Point.h">
+      <Filter>components\params\geometry\1d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\Param.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\ParamType.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\ParamImpl.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\Line.parm.h">
+      <Filter>components\curve\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\param\Point.parm.h">
+      <Filter>components\params\geometry\1d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.parm.h">
+      <Filter>components\curve\primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\GH.h" />
+    <ClInclude Include="..\..\..\include\gh\Evaluator.h">
+      <Filter>eval</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\Component.cpp">
+      <Filter>dataset\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\component\Line.cpp">
+      <Filter>components\curve\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\component\CircleCNR.cpp">
+      <Filter>components\curve\primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CompHelper.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\component\param\Point.cpp">
+      <Filter>components\params\geometry\1d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\ParamImpl.cpp">
+      <Filter>dataset\param</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\GH.cpp" />
+    <ClCompile Include="..\..\..\source\Evaluator.cpp">
+      <Filter>eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
