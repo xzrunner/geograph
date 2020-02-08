@@ -5,15 +5,6 @@
 
 #include <rttr/registration>
 
-#define REGIST_NODE_TYPE(type, name)                            \
-	rttr::registration::class_<gh::device::type>("gh::"#name) \
-		.constructor<>()                                        \
-	;
-
-#define REGIST_ENUM_ITEM(type, name, label) \
-    rttr::value(name, type),                \
-    rttr::metadata(type, label)             \
-
 RTTR_REGISTRATION
 {
 
