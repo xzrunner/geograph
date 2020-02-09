@@ -19,6 +19,9 @@
     <ClInclude Include="..\..\..\include\gh\component\Line.parm.h" />
     <ClInclude Include="..\..\..\include\gh\component\param\Point.h" />
     <ClInclude Include="..\..\..\include\gh\component\param\Point.parm.h" />
+    <ClInclude Include="..\..\..\include\gh\comp_include_gen.h" />
+    <ClInclude Include="..\..\..\include\gh\comp_regist_cfg.h" />
+    <ClInclude Include="..\..\..\include\gh\comp_rttr_gen.h" />
     <ClInclude Include="..\..\..\include\gh\Evaluator.h" />
     <ClInclude Include="..\..\..\include\gh\GH.h" />
     <ClInclude Include="..\..\..\include\gh\ParamImpl.h" />

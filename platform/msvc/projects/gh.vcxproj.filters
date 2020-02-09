@@ -37,6 +37,9 @@
     <Filter Include="eval">
       <UniqueIdentifier>{04d5a3c4-9b59-48b2-a81a-c127d4b71c71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="tools\rtti">
+      <UniqueIdentifier>{d3c085ac-3639-4cfa-a9bd-59fd49ba78a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\gh\Component.h">
@@ -77,6 +80,15 @@
     <ClInclude Include="..\..\..\include\gh\Evaluator.h">
       <Filter>eval</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\comp_include_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\comp_regist_cfg.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\gh\comp_rttr_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\Component.cpp">
@@ -102,7 +114,7 @@
       <Filter>eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
-      <Filter>tools</Filter>
+      <Filter>tools\rtti</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

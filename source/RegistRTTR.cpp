@@ -1,7 +1,6 @@
-// params
-#include "gh/component/param/Point.h"
-// curve
-#include "gh/component/Line.h"
+#define EXE_FILEPATH "gh/comp_include_gen.h"
+#include "gh/comp_regist_cfg.h"
+#undef EXE_FILEPATH
 
 #include <rttr/registration>
 
@@ -19,27 +18,9 @@ rttr::registration::class_<gh::Component>("gh::Component")
 	.method("GetExports", &gh::Component::GetExports)
 ;
 
-// params
-
-rttr::registration::class_<gh::comp::param::Point>("gh::param_point")
-.constructor<>()
-#define PARM_FILEPATH "gh/component/param/Point.parm.h"
-#define PARM_NODE_CLASS gh::comp::param::Point
-#include <dag/rttr_prop_gen.h>
-#undef PARM_NODE_CLASS
-#undef PARM_FILEPATH
-;
-
-// curve
-
-rttr::registration::class_<gh::comp::Line>("gh::line")
-.constructor<>()
-#define PARM_FILEPATH "gh/component/Line.parm.h"
-#define PARM_NODE_CLASS gh::comp::Line
-#include <dag/rttr_prop_gen.h>
-#undef PARM_NODE_CLASS
-#undef PARM_FILEPATH
-;
+#define EXE_FILEPATH "gh/comp_rttr_gen.h"
+#include "gh/comp_regist_cfg.h"
+#undef EXE_FILEPATH
 
 }
 
