@@ -7,7 +7,7 @@ namespace geograph
 namespace comp
 {
 
-void Line::Execute()
+void Line::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     auto a = CompHelper::GetInputParam(*this, static_cast<size_t>(InputID::A));
     auto b = CompHelper::GetInputParam(*this, static_cast<size_t>(InputID::B));

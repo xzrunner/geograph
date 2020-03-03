@@ -9,7 +9,7 @@ namespace comp
 namespace param
 {
 
-void Point::Execute()
+void Point::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     auto in = CompHelper::GetInputParam(*this, 0);
     if (in)
