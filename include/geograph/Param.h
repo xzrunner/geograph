@@ -1,8 +1,8 @@
 #pragma once
 
-#include "gh/ParamType.h"
+#include "geograph/ParamType.h"
 
-namespace gh
+namespace geograph
 {
 
 class Param

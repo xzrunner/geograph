@@ -1,6 +1,6 @@
 #pragma once
 
-#include "gh/Param.h"
+#include "geograph/Param.h"
 
 #include <SM_Vector.h>
 #include <SM_Plane.h>
@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-namespace gh
+namespace geograph
 {
 
 //////////////////////////////////////////////////////////////////////////

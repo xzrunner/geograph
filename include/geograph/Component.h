@@ -1,11 +1,11 @@
 #pragma once
 
-#include "gh/ParamType.h"
-#include "gh/typedef.h"
+#include "geograph/ParamType.h"
+#include "geograph/typedef.h"
 
 #include <dag/Node.h>
 
-namespace gh
+namespace geograph
 {
 
 class Component : public dag::Node<ParamType>

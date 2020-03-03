@@ -1,10 +1,10 @@
 //#pragma once
 //
-//#include "gh/Component.h"
+//#include "geograph/Component.h"
 //
 //#include <SM_Vector.h>
 //
-//namespace gh
+//namespace geograph
 //{
 //namespace comp
 //{
@@ -49,7 +49,7 @@
 //
 //    RTTR_ENABLE(Component)
 //
-//#define PARM_FILEPATH "gh/component/CircleCNR.parm.h"
+//#define PARM_FILEPATH "geograph/component/CircleCNR.parm.h"
 //#include <dag/node_parms_gen.h>
 //#undef PARM_FILEPATH
 //

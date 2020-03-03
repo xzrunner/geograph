@@ -1,8 +1,8 @@
-#include "gh/component/Line.h"
-#include "gh/CompHelper.h"
-#include "gh/ParamImpl.h"
+#include "geograph/component/Line.h"
+#include "geograph/CompHelper.h"
+#include "geograph/ParamImpl.h"
 
-namespace gh
+namespace geograph
 {
 namespace comp
 {

@@ -1,8 +1,8 @@
-#include "gh/ParamImpl.h"
+#include "geograph/ParamImpl.h"
 
 #include <assert.h>
 
-namespace gh
+namespace geograph
 {
 //
 //bool check_bool(const std::shared_ptr<Param>& var)

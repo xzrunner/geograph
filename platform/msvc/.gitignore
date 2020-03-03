@@ -1,8 +1,8 @@
-gh/
-gh_test/
+geograph/
+geograph_test/
 projects/*
 
-!projects/gh.vcxproj
-!projects/gh.vcxproj.filters
-!projects/gh_test.vcxproj
-!projects/gh_test.vcxproj.filters
+!projects/geograph.vcxproj
+!projects/geograph.vcxproj.filters
+!projects/geograph_test.vcxproj
+!projects/geograph_test.vcxproj.filters

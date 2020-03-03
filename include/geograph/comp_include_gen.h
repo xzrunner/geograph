@@ -7,9 +7,9 @@
 
 #ifndef PARM_FILEPATH_H
 #ifdef NAMESPACE_PARAM
-#define PARM_FILEPATH_H gh/component/param/##PARM_COMP_CLASS##.h
+#define PARM_FILEPATH_H geograph/component/param/##PARM_COMP_CLASS##.h
 #else
-#define PARM_FILEPATH_H gh/component/##PARM_COMP_CLASS##.h
+#define PARM_FILEPATH_H geograph/component/##PARM_COMP_CLASS##.h
 #endif // NAMESPACE_PARAM
 #endif // PARM_FILEPATH_H
 

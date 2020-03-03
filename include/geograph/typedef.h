@@ -2,7 +2,7 @@
 
 #include <memory>
 
-namespace gh
+namespace geograph
 {
 
 class Component;

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "gh/typedef.h"
+#include "geograph/typedef.h"
 
-namespace gh
+namespace geograph
 {
 
 class CompHelper

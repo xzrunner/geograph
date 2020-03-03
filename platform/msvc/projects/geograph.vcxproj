@@ -11,22 +11,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\gh\CompHelper.h" />
-    <ClInclude Include="..\..\..\include\gh\Component.h" />
-    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.h" />
-    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.parm.h" />
-    <ClInclude Include="..\..\..\include\gh\component\Line.h" />
-    <ClInclude Include="..\..\..\include\gh\component\Line.parm.h" />
-    <ClInclude Include="..\..\..\include\gh\component\param\Point.h" />
-    <ClInclude Include="..\..\..\include\gh\component\param\Point.parm.h" />
-    <ClInclude Include="..\..\..\include\gh\comp_include_gen.h" />
-    <ClInclude Include="..\..\..\include\gh\comp_regist_cfg.h" />
-    <ClInclude Include="..\..\..\include\gh\comp_rttr_gen.h" />
-    <ClInclude Include="..\..\..\include\gh\GH.h" />
-    <ClInclude Include="..\..\..\include\gh\ParamImpl.h" />
-    <ClInclude Include="..\..\..\include\gh\typedef.h" />
-    <ClInclude Include="..\..\..\include\gh\Param.h" />
-    <ClInclude Include="..\..\..\include\gh\ParamType.h" />
+    <ClInclude Include="..\..\..\include\geograph\CompHelper.h" />
+    <ClInclude Include="..\..\..\include\geograph\Component.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\CircleCNR.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\CircleCNR.parm.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\Line.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\Line.parm.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\param\Point.h" />
+    <ClInclude Include="..\..\..\include\geograph\component\param\Point.parm.h" />
+    <ClInclude Include="..\..\..\include\geograph\comp_include_gen.h" />
+    <ClInclude Include="..\..\..\include\geograph\comp_regist_cfg.h" />
+    <ClInclude Include="..\..\..\include\geograph\comp_rttr_gen.h" />
+    <ClInclude Include="..\..\..\include\geograph\GeoGraph.h" />
+    <ClInclude Include="..\..\..\include\geograph\ParamImpl.h" />
+    <ClInclude Include="..\..\..\include\geograph\typedef.h" />
+    <ClInclude Include="..\..\..\include\geograph\Param.h" />
+    <ClInclude Include="..\..\..\include\geograph\ParamType.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\CompHelper.cpp" />
@@ -34,14 +34,14 @@
     <ClCompile Include="..\..\..\source\component\CircleCNR.cpp" />
     <ClCompile Include="..\..\..\source\component\Line.cpp" />
     <ClCompile Include="..\..\..\source\component\param\Point.cpp" />
-    <ClCompile Include="..\..\..\source\GH.cpp" />
+    <ClCompile Include="..\..\..\source\GeoGraph.cpp" />
     <ClCompile Include="..\..\..\source\ParamImpl.cpp" />
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>5.gh</ProjectName>
+    <ProjectName>5.geograph</ProjectName>
     <ProjectGuid>{1FFF764C-06CD-4935-939C-71922C6148FD}</ProjectGuid>
-    <RootNamespace>gh</RootNamespace>
+    <RootNamespace>geograph</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -71,12 +71,12 @@
     <_ProjectFileVersion>15.0.26730.12</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\gh\x86\Debug\</OutDir>
-    <IntDir>..\gh\x86\Debug\obj\</IntDir>
+    <OutDir>..\geograph\x86\Debug\</OutDir>
+    <IntDir>..\geograph\x86\Debug\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\gh\x86\Release\</OutDir>
-    <IntDir>..\gh\x86\Release\obj\</IntDir>
+    <OutDir>..\geograph\x86\Release\</OutDir>
+    <IntDir>..\geograph\x86\Release\obj\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

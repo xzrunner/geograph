@@ -11,18 +11,18 @@
 
 #ifndef PARM_FILEPATH_PARM
 #ifdef NAMESPACE_PARAM
-#define PARM_FILEPATH_PARM gh/component/param/##PARM_COMP_CLASS##.parm.h
+#define PARM_FILEPATH_PARM geograph/component/param/##PARM_COMP_CLASS##.parm.h
 #else
-#define PARM_FILEPATH_PARM gh/component/##PARM_COMP_CLASS##.parm.h
+#define PARM_FILEPATH_PARM geograph/component/##PARM_COMP_CLASS##.parm.h
 #endif // NAMESPACE_PARAM
 #endif // PARM_FILEPATH_PARM
 
 #ifdef NAMESPACE_PARAM
-#define RTTR_NAME "gh::param_"##XSTR(PARM_COMP_NAME)
-#define PARM_NODE_CLASS gh::comp::param::##PARM_COMP_CLASS
+#define RTTR_NAME "geograph::param_"##XSTR(PARM_COMP_NAME)
+#define PARM_NODE_CLASS geograph::comp::param::##PARM_COMP_CLASS
 #else
-#define RTTR_NAME "gh::"##XSTR(PARM_COMP_NAME)
-#define PARM_NODE_CLASS gh::comp::##PARM_COMP_CLASS
+#define RTTR_NAME "geograph::"##XSTR(PARM_COMP_NAME)
+#define PARM_NODE_CLASS geograph::comp::##PARM_COMP_CLASS
 #endif // NAMESPACE_PARAM
 
 rttr::registration::class_<PARM_NODE_CLASS>(RTTR_NAME)

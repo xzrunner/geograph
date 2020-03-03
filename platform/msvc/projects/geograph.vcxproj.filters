@@ -39,50 +39,50 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\gh\Component.h">
+    <ClInclude Include="..\..\..\include\geograph\Component.h">
       <Filter>dataset\component</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\Line.h">
+    <ClInclude Include="..\..\..\include\geograph\component\Line.h">
       <Filter>components\curve\primitive</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.h">
+    <ClInclude Include="..\..\..\include\geograph\component\CircleCNR.h">
       <Filter>components\curve\primitive</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\typedef.h" />
-    <ClInclude Include="..\..\..\include\gh\CompHelper.h">
+    <ClInclude Include="..\..\..\include\geograph\typedef.h" />
+    <ClInclude Include="..\..\..\include\geograph\CompHelper.h">
       <Filter>tools</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\param\Point.h">
+    <ClInclude Include="..\..\..\include\geograph\component\param\Point.h">
       <Filter>components\params\geometry\1d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\Param.h">
+    <ClInclude Include="..\..\..\include\geograph\Param.h">
       <Filter>dataset\param</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\ParamType.h">
+    <ClInclude Include="..\..\..\include\geograph\ParamType.h">
       <Filter>dataset\param</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\ParamImpl.h">
+    <ClInclude Include="..\..\..\include\geograph\ParamImpl.h">
       <Filter>dataset\param</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\Line.parm.h">
+    <ClInclude Include="..\..\..\include\geograph\component\Line.parm.h">
       <Filter>components\curve\primitive</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\param\Point.parm.h">
+    <ClInclude Include="..\..\..\include\geograph\component\param\Point.parm.h">
       <Filter>components\params\geometry\1d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\component\CircleCNR.parm.h">
+    <ClInclude Include="..\..\..\include\geograph\component\CircleCNR.parm.h">
       <Filter>components\curve\primitive</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\GH.h" />
-    <ClInclude Include="..\..\..\include\gh\comp_include_gen.h">
+    <ClInclude Include="..\..\..\include\geograph\comp_include_gen.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\comp_regist_cfg.h">
+    <ClInclude Include="..\..\..\include\geograph\comp_regist_cfg.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\gh\comp_rttr_gen.h">
+    <ClInclude Include="..\..\..\include\geograph\comp_rttr_gen.h">
       <Filter>tools\rtti</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\geograph\GeoGraph.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\Component.cpp">
@@ -103,9 +103,9 @@
     <ClCompile Include="..\..\..\source\ParamImpl.cpp">
       <Filter>dataset\param</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\source\GH.cpp" />
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
       <Filter>tools\rtti</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\source\GeoGraph.cpp" />
   </ItemGroup>
 </Project>

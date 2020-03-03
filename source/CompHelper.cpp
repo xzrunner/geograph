@@ -1,7 +1,7 @@
-#include "gh/CompHelper.h"
-#include "gh/Component.h"
+#include "geograph/CompHelper.h"
+#include "geograph/Component.h"
 
-namespace gh
+namespace geograph
 {
 
 CompPtr CompHelper::GetInputComp(const Component& comp, size_t idx)

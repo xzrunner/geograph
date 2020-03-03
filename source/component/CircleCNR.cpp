@@ -1,8 +1,8 @@
-//#include "gh/component/CircleCNR.h"
-//#include "gh/CompHelper.h"
-//#include "gh/ParamImpl.h"
+//#include "geograph/component/CircleCNR.h"
+//#include "geograph/CompHelper.h"
+//#include "geograph/ParamImpl.h"
 //
-//namespace gh
+//namespace geograph
 //{
 //namespace comp
 //{

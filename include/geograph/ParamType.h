@@ -1,6 +1,6 @@
 #pragma once
 
-namespace gh
+namespace geograph
 {
 
 enum class ParamType

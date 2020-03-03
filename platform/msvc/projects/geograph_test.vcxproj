@@ -125,7 +125,7 @@
     <ProjectReference Include="..\..\..\..\volume\platform\msvc\projects\volume.vcxproj">
       <Project>{e9e3c6d8-5b33-4afc-b1a1-0c1541bf8ddf}</Project>
     </ProjectReference>
-    <ProjectReference Include="gh.vcxproj">
+    <ProjectReference Include="geograph.vcxproj">
       <Project>{ee9ef814-c26a-45d3-a14e-323235c09d34}</Project>
     </ProjectReference>
   </ItemGroup>
@@ -139,9 +139,9 @@
     <ClInclude Include="..\..\..\test\utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>5.gh_test</ProjectName>
+    <ProjectName>5.geograph_test</ProjectName>
     <ProjectGuid>{D332FD7C-E1AE-4BB2-8E3A-6E0DEE781382}</ProjectGuid>
-    <RootNamespace>gh_test</RootNamespace>
+    <RootNamespace>geograph_test</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -171,12 +171,12 @@
     <_ProjectFileVersion>15.0.26730.12</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\gh_test\x86\Debug\</OutDir>
-    <IntDir>..\gh_test\x86\Debug\obj\</IntDir>
+    <OutDir>..\geograph_test\x86\Debug\</OutDir>
+    <IntDir>..\geograph_test\x86\Debug\obj\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\gh_test\x86\Release\</OutDir>
-    <IntDir>..\gh_test\x86\Release\obj\</IntDir>
+    <OutDir>..\geograph_test\x86\Release\</OutDir>
+    <IntDir>..\geograph_test\x86\Release\obj\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
